@@ -57,5 +57,5 @@ print('##     ##  #######  ########    ##       ##       ########  #######  ##  
 sleep(2)
 from icrawler.builtin import GoogleImageCrawler
 
-google_crawler = GoogleImageCrawler(storage={'root_dir': '! ! ! INSERT PATH ! ! !'})
+google_crawler = GoogleImageCrawler(storage={'root_dir': 'floppabin'})
 google_crawler.crawl(keyword='big floppa', max_num=100)
